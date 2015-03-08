@@ -1,0 +1,18 @@
+{
+    "name": "tranch/google-authenticator",
+    "description": "PHP Class for handling Google Authenticator 2-factor authentication.",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Michael Kliewe",
+            "homepage": "http://www.phpgangsta.de/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.3.0"
+    },
+    "autoload": {
+        "psr-4": {"Authenticate\\": "src/Authenticate"}
+    }
+}
